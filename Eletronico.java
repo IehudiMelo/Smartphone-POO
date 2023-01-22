@@ -1,6 +1,8 @@
 public class Eletronico {
     boolean ligar;
     boolean desligar;
+
+//ligar o dispositivo
     public void Ligar(){
         ligar = true;
         if (ligar = true){
@@ -9,12 +11,16 @@ public class Eletronico {
                 System.out.println("O dispositivo est\u00E1 desligado!");
             }
         }}
-
+//instalar aplicativo
     void InstalarApp(){
         ISmartphone.instalarApp();
 
     }
-
+//exibir Aplicativos
+    void ExibirApps(){
+        Smartphone.exibirAppsInstalados();
+    }
+//desligar o dispositivo
     public void Desligar(){
         desligar = true;
         if (desligar = true){
