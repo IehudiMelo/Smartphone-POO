@@ -1,13 +1,16 @@
 import java.util.Collection;
+import java.util.ArrayList;
 public class Smartphone {
-    Collection aplicativosInstalados;
+    static ArrayList aplicativosInstalados = new ArrayList();
 
-    public void exibirAppsInstalados() {
+    public static void exibirAppsInstalados() {
+        aplicativosInstalados.add(ISmartphone.instalarApp());
+        System.out.println(aplicativosInstalados.toString());
 
         return;
     }
 
-    public void recuperarMemoriaDisponivel(){
+    public static void recuperarMemoriaDisponivel(){
         return;
     }
 }
