@@ -1,11 +1,19 @@
-import java.util.Collection;
 import java.util.ArrayList;
+
 public class Smartphone {
-    static ArrayList aplicativosInstalados = new ArrayList();
+
+    public void aplicativosInstalados(){
+        ArrayList<App> apps = new ArrayList<>();
+        apps.add(ISmartphone.instalarApp());
+        System.out.println(apps);
+        return ;
+    }
+
 
     public static void exibirAppsInstalados() {
-        aplicativosInstalados.add(ISmartphone.instalarApp());
-        System.out.println(aplicativosInstalados.toString());
+
+
+
 
         return;
     }
