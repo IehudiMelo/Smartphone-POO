@@ -11,11 +11,7 @@ public class Eletronico {
                 System.out.println("O dispositivo est\u00E1 desligado!");
             }
         }}
-//instalar aplicativo
-    void InstalarApp(){
-        ISmartphone.instalarApp();
 
-    }
 //exibir Aplicativos
     void ExibirApps(){
         Smartphone.exibirAppsInstalados();
